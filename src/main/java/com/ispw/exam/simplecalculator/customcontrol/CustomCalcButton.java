@@ -27,5 +27,6 @@ public class CustomCalcButton extends Button {
 	
 	@Override
 	public void requestFocus() {
+		// Do nothing
 	}
 }

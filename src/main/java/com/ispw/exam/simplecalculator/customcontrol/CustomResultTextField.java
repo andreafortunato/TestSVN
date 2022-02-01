@@ -27,5 +27,6 @@ public class CustomResultTextField extends TextField {
 	
 	@Override
 	public void requestFocus() {
+		// Do nothing
 	}
 }
