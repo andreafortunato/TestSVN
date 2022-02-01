@@ -14,8 +14,8 @@ public class CustomResultTextField extends TextField {
 				
 		this.setMinHeight(Main.SIZE);
 		this.setMaxHeight(Main.SIZE);
-		this.setMinWidth(Main.SIZE*4 + Main.GAP*3);
-		this.setMaxWidth(Main.SIZE*4 + Main.GAP*3);
+		this.setMinWidth(Main.SIZE*4 + Main.GAP*3f);
+		this.setMaxWidth(Main.SIZE*4 + Main.GAP*3f);
 		
 		this.setFont(Font.font(33.0));
 		
@@ -27,6 +27,5 @@ public class CustomResultTextField extends TextField {
 	
 	@Override
 	public void requestFocus() {
-		return;
 	}
 }
