@@ -1,16 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.ispw</groupId>
-    <artifactId>SimpleCalculator</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.ispw.exam</groupId>
+    <artifactId>simplecalculator</artifactId>
+    <version>0.0.1</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-  		<sonar.organization>bikersland</sonar.organization>
-  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <dependencies>
         <dependency>
@@ -39,7 +37,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.ispw.SimpleCalculator.App</mainClass>
+                            <mainClass>com.ispw.exam.simplecalculator.Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>
